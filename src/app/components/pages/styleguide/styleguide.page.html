@@ -1,0 +1,130 @@
+<div class="container text-center">
+    <h1>Styleguide Page</h1>
+
+    <h2 class="text-left">Buttons</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Normal State / Hover</th>
+                <th>Inactive</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Primario</td>
+                <td><baza-button>Descúbrelos</baza-button></td>
+                <td><baza-button disabled>Descúbrelos</baza-button></td>
+            </tr>
+            <tr>
+                <td rowspan="2">Secundario</td>
+                <td><baza-button type="secundary">Detalles</baza-button></td>
+                <td><baza-button type="secundary" disabled>Detalles</baza-button></td>
+            </tr>
+            <tr>
+                <td><baza-button type="secundary" icon="circle">Ve su historia</baza-button></td>
+                <td><baza-button type="secundary" icon="circle" disabled>Ve su historia</baza-button></td>
+            </tr>
+            <tr>
+                <td>Terciario</td>
+                <td><baza-button type="tertiary">Ver otro</baza-button></td>
+                <td><baza-button type="tertiary" disabled>Ver otro</baza-button></td>
+            </tr>
+            <tr>
+                <td>Descarga</td>
+                <td><baza-button type="descarga">Términos y Condiciones generales</baza-button></td>
+                <td><baza-button type="descarga" disabled>Términos y Condiciones generales</baza-button></td>
+            </tr>
+            <tr>
+                <td>Login</td>
+                <td><baza-button type="login">Entrar</baza-button></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Botón Menú</td>
+                <td><baza-button type="boton-menu" icon="https://pbs.twimg.com/profile_images/378800000348724384/9886875c482bd07cde6cf88b47c69a2b.jpeg">Créditos</baza-button></td>
+                <td><baza-button type="boton-menu" icon="https://pbs.twimg.com/profile_images/378800000348724384/9886875c482bd07cde6cf88b47c69a2b.jpeg" disabled>Créditos</baza-button></td>
+            </tr>
+            <tr>
+                <td>Botón cierre</td>
+                <td><baza-button type="boton-cierre"></baza-button> <baza-button type="boton-cierre" icon="dark"></baza-button></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Chatbot</td>
+                <td><baza-button type="chat"></baza-button> <baza-button type="chat" icon="close"></baza-button></td>
+                <td><baza-button type="chat" disabled></baza-button></td>
+            </tr>
+            <tr>
+                <td>Promociones</td>
+                <td><baza-button type="promociones" icon="/src/app/assets/img/icon-comida.svg">Comida</baza-button>
+                    <baza-button type="promociones" icon="/src/app/assets/img/icon-comida.svg" state="active">Comida</baza-button></td>
+                <td><baza-button type="promociones" icon="/src/app/assets/img/icon-comida.svg" disabled>Comida</baza-button></td>
+            </tr>
+            <tr>
+                <td>Búsqueda</td>
+                <td><baza-button type="busqueda">Tarjetas de crédito (9)</baza-button>
+                    <baza-button type="busqueda" state="active">Tarjetas de crédito (9)</baza-button></td>
+                <td><baza-button type="busqueda" disabled>Tarjetas de crédito (9)</baza-button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="col-md-11 input--forms" style="margin:10px;">
+    <h2 class="text-left">Inputs</h2>
+    <br>
+    <!--input padrão-->
+    <div baza-input ng-type="text" ng-icon="" ng-class="" ng-valid="" ng-name="pattern-input" placeholder="Busca por calle, ciudad, estado o código postal *"
+        mask=""></div>
+    <!--./input padrão-->
+    <br>
+    <!--input padrão-->
+    <div baza-input ng-type="text" ng-icon="" ng-class="" ng-valid="true" ng-name="pattern-input" placeholder="Busca por calle, ciudad, estado o código postal *"
+        mask="">
+        <div class="valid-feedback">Example invalid feedback text</div>
+    </div>
+    <!--./input padrão-->
+    <br>
+    <!--input padrão-->
+    <div baza-input ng-type="text" ng-icon="" ng-class="" ng-valid="false" ng-name="pattern-input" placeholder="Busca por calle, ciudad, estado o código postal *"
+        mask="">
+        <div class="invalid-feedback">More example invalid feedback text</div>
+    </div>
+    <!--./input padrão-->
+    <br>
+    <!--input padrão com ico-->
+    <div baza-input ng-type="text" textbtn="" ng-icon="" ng-class="" ng-name="pattern-input" placeholder="Ingresa la cantidad de dinero que desesas invertir $" mask="00.000.00"></div>
+    <!--./input padrão com ico-->
+    <br>
+    <!--input padrão com ico-->
+    <div baza-input ng-type="text" textbtn="" ng-icon="sucursales" ng-class="" ng-name="pattern-input" placeholder="Ingresa la cantidad de dinero que desesas invertir $" ></div>
+    <!--./input padrão com ico-->
+    <br>
+    <!--input padrão com bt-->
+    <div baza-button-input ng-type="mail" textbtn="Suscribeme" icon="mail" ng-class="" ng-name="button-input" action="showMessage('clicado')"
+        ng-disabled="false" placeholder="email@email.com" mask=""></div>
+    <!--./input padrão com bt-->
+    <br>
+    <!--input padrão search-->
+    <div baza-input ng-type="search" ng-icon="lupa" ng-class="" ng-name="search" placeholder="Search" mask=""></div>
+    <!--./input padrão search-->
+    <br>
+
+</div>
+
+<div class="col-md-11 cards" style="margin:10px; display: flex;">
+    <div baza-card type="image"></div>
+    <div baza-card type="image"></div>
+    <div baza-card type="image"></div>
+    <div baza-card type="image"></div>
+</div>
+
+<div class="col-md-11 cards" style="margin:10px; display: flex;">
+    <div baza-card type="produto"></div>
+    <div baza-card type="produto"></div>
+    <div baza-card type="produto"></div>
+    <div baza-card type="produto"></div>
+</div>
+
+<div baza-alert></div>

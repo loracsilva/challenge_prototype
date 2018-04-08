@@ -1,0 +1,43 @@
+.alert
+    color: $white
+    height: 150px
+    padding: 0
+    display: flex
+    line-height: 5%
+
+    &--success
+        background-color: $primary-color
+
+    &--danger
+        background-color: $cardinal
+
+    &--warning
+        background-color: $yellow
+
+    &--info
+        background-color: $gray-3a
+
+    &_block
+        flex: auto
+        
+        &--left
+            font-weight: 600
+            padding: 3%
+            & a
+                color: $white
+                text-decoration: none
+
+        &--right
+            text-align: center
+            font-size: 18px
+            font-weight: 700
+            line-height: 150px
+            background-color: rgba(2, 2, 2, 0.25)
+            text-align: center
+
+.close-icon
+    width: 22px
+    height: 22px
+    margin-left: 5px
+    margin-top: -4px
+        

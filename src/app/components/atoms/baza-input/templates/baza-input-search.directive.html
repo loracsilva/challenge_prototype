@@ -1,0 +1,9 @@
+<div class='form--search'>
+    <span class="form__icon--lupa"></span>
+    <input ng-if="!mask" 
+            type="{{type}}" 
+            class="{'form-control form__input--search form__input':!valid, 'form-control form__input__is-valid':valid==true, 'form-control form__input--search form__input__is-invalid':valid==false }" 
+            name="{{input}}" 
+            placeholder="{{placeholder}}"/>
+    <span class="form__icon--cerrar"></span>
+</div>

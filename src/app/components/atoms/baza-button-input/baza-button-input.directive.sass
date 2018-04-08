@@ -1,0 +1,41 @@
+.form
+    &--group-btn
+        background: transparent
+        border-radius: 8px
+        padding: 1.5px
+        position: relative
+        flex-direction: row
+        display: flex
+        border: 1px solid $gray-de
+
+    &__input__btn
+        top: 2px
+        bottom: 2px
+        height: 49px
+        width: calc(87%-230px)
+        float: left
+        border: none
+        left: 2px
+        outline: 0
+        
+    &__btn
+        width: 35%
+        height: 40px
+        float: right
+        border-radius: $default-border-radius
+        border: none
+        outline: none
+        color: $primary-button-text-color
+        cursor: pointer
+        font-family: $primary-font
+        font-size: $l-font-size
+        font-weight: 600
+        text-align: center
+        +linear-gradient(280deg, $primary-color, $secondary-color)
+        margin: 5px
+
+.icon_mail-input
+    width: 50px
+    margin: 7px 5px
+    float: left
+    background: url(/src/app/assets/img/icones_svg/icono_mail.svg) no-repeat
