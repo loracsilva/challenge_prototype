@@ -2,7 +2,6 @@
   var moduleDependencies = [
     'ui.router',
     'pages',
-    'organisms',
     'molecules',
     'atoms'
   ];

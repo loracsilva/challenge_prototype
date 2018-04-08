@@ -1,14 +1,18 @@
-# Desafio Fortes
+# Challenge_prototype
 
-## Servidor
+## Tecnologias
 
-Execute `npm start` para um servidor de desenvolvimento.
-O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.
+Nesse projeto estou usando `Angular JS` como framework MV, `Sass` e o nosso bom e velho `HTML E CSS`.
 
-## Construir
+## Desenvolvendo
 
-Execute `npm build` para construir o projeto. Os artefatos serão gerados e disponibilizados na pasta `dist/`.
+Primeiramente tenha o node instalado, após isso baixe tudo e execute `npm install` e depois um `npm start` para ter acesso ao servidor de desenvolvimento que irá iniciar automaticamente no seu navegador padrão.
+
+Em cada mudança no seu código durante o desenvolvimento o aplicativo será recarregado automaticamente.
+
+## Construindo em Produção
+
+Em produção, execute `npm build` para construir o projeto e os artefatos serão gerados e disponibilizados na pasta `dist/`.
 
 ## Estrutura do projeto
-
-Os componentes e páginas do projeto estão seguindo o padrão de [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/).
+Para tornar os componentes reutilizáveis e minimizar o esforço em produções futuras, foi adotado e incorporado ao projeto o padrão de [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/).
