@@ -2,12 +2,6 @@
   var app = angular.module('desafio'),
 
     states = {
-      homeState: {
-        name: 'home',
-        url: '/home',
-        templateUrl: './src/app/components/pages/home/home.controller.html',
-        controller: 'HomeController'
-      },
 
       styleguideState: {
         name: 'styleguide',
@@ -18,7 +12,6 @@
 
     routerConfiguration = ['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
       $stateProvider
-        .state(states.homeState)
         .state(states.styleguideState);
 
       $urlRouterProvider.otherwise('/styleguide');
