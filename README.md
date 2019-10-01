@@ -16,4 +16,3 @@ Em produção, execute `npm build` para construir o projeto e os artefatos serã
 
 ## Estrutura do projeto
 Para tornar os componentes reutilizáveis e minimizar o esforço em produções futuras, foi adotado e incorporado ao projeto o padrão de [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/).
-Ajustanto para partiicipar do #hacktoberfest.
